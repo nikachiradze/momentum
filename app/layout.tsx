@@ -36,11 +36,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <body
-        className={clsx(
-          fontSans.variable,
-          fontFredoka.variable,
-          "w-screen h-screen px-32 py-5"
-        )}
+        className={clsx(fontSans.variable, fontFredoka.variable, " px-32 py-5")}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <Header />

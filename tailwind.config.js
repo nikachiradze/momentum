@@ -16,6 +16,13 @@ const config = {
       },
       colors: {
         primary: "#8338EC",
+        toStart: "#F7BC30",
+        inProgress: "#FB5607",
+        readyForTesting: "#FF006E",
+        ended: "#3A86FF",
+        design: "#FF66A8",
+        grey: "#DEE2E6",
+        darkGrey: "#6C757D",
       },
     },
   },
